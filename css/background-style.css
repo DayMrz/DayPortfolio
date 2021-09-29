@@ -1,0 +1,10 @@
+*, *::before, ::after {
+    box-sizing: border-box;
+}
+
+#canvas {
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
