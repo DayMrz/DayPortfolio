@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;600;700&display=swap');
 
 :root {
-    font-family: 'Roboto Mono', monospace;
+    --Font-Family: 'Roboto Mono', monospace;
+    --Primary-Gray-Swiss-Coffee: hsla(0, 17%, 93%, 0.801);
+}
+
+*, *::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -14,6 +20,15 @@ body {
     justify-content: space-between;
     margin: 0 auto;
     padding: .5em;
+}
+
+.Header-btn-img {
+    background-color: var(--Primary-Gray-Swiss-Coffee);
+    border-radius: 50%;
+    padding: .3rem;
+    cursor: pointer;
+    border: 0;
+
 }
 
 .fa-bars{
