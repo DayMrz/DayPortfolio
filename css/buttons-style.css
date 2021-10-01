@@ -1,0 +1,37 @@
+.Header-btn-img {
+    background-color: var(--Primary-Btn-Background);
+    border-radius: 50%;
+    padding: .3rem;
+    cursor: pointer;
+    border: 0;
+    box-shadow: var(--Primary-Btn-Shadow);
+} 
+
+.Btn-theme {
+    background-color: transparent;
+    block-size: 25px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    inline-size: 25px;
+    padding: .5rem;
+}
+
+.Btn-theme:hover {
+    
+    box-shadow: var(--Primary-Btn-Shadow);
+
+}
+
+#Dark{
+    background-color: transparent;
+    background-image: url('../icons/moon-solid.svg');
+    color: var(--Tertiary-Icon-Theme-Color);
+}
+
+
+#Light{
+    background-color: transparent;
+    background-image: url('../icons/sun-solid.svg');
+    color: var(--Tertiary-Icon-Theme-Color);
+}

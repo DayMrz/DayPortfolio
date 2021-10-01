@@ -1,3 +1,7 @@
+// import "../css"
+
+const canvas = document.querySelector('#canvas')
+
 jQuery(document).ready(function ($) {
 
     var windowXArray = [],
@@ -19,7 +23,6 @@ jQuery(document).ready(function ($) {
 
     var canvas = oCanvas.create({
         canvas: '#canvas',
-        background: '#271241',
         fps: 60
     });
 
